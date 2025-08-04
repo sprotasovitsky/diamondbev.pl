@@ -2,16 +2,19 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Menu, X, Diamond } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const router = useRouter();
+  const { language, setLanguage, t } = useLanguage();
 
   const navigation = [
-    { name: 'Strona główna', href: '/' },
-    { name: 'O nas', href: '/about' },
-    { name: 'Usługi', href: '/services' },
-    { name: 'Kontakt', href: '/contact' },
+    { name: t('nav.home'), href: '/' },
+    { name: t('nav.about'), href: '/about' },
+    { name: t('nav.services'), href: '/services' },
+    { name: t('nav.contact'), href: '/contact' },
   ];
 
   const isActive = (href: string) => {
@@ -54,8 +57,16 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
-          {/* Mobile Menu Button */}
+          {/* Desktop Language Switcher & Mobile Menu Button */}
           <div className="flex items-center space-x-4">
+            {/* Language Switcher */}
+            <div className="hidden md:block">
+              <LanguageSwitcher
+                currentLanguage={language}
+                onLanguageChange={setLanguage}
+              />
+            </div>
+            
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -85,6 +96,14 @@ const Header: React.FC = () => {
                   {item.name}
                 </Link>
               ))}
+              
+              {/* Mobile Language Switcher */}
+              <div className="px-4 py-2 border-t border-secondary-200 mt-2 pt-4">
+                <LanguageSwitcher
+                  currentLanguage={language}
+                  onLanguageChange={setLanguage}
+                />
+              </div>
             </div>
           </div>
         )}

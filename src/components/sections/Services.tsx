@@ -12,8 +12,10 @@ import {
   KeyRound 
 } from 'lucide-react';
 import Card from '../ui/Card';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Services: React.FC = () => {
+  const { t } = useLanguage();
 
   const services = [
     {
@@ -98,7 +100,7 @@ const Services: React.FC = () => {
             viewport={{ once: true }}
             className="section-title"
           >
-            Nasze Usługi
+            {t('services.title')}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -107,7 +109,7 @@ const Services: React.FC = () => {
             viewport={{ once: true }}
             className="section-subtitle mx-auto"
           >
-            Oferujemy szeroką gamę usług w branży napojowej
+            {t('services.subtitle')}
           </motion.p>
         </div>
 

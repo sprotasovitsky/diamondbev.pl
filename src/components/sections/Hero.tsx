@@ -2,8 +2,10 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Button from '../ui/Button';
 import Link from 'next/link';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Hero: React.FC = () => {
+  const { t } = useLanguage();
 
   return (
     <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-900 text-white overflow-hidden">
@@ -30,9 +32,9 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.6 }}
             >
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                <span className="block">DiamondBev.pl</span>
+                <span className="block">{t('hero.title')}</span>
                 <span className="block text-gradient bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent">
-                  Produkcja i Dostawa Napojów
+                  {t('hero.subtitle')}
                 </span>
               </h1>
             </motion.div>
@@ -43,7 +45,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl lg:text-2xl text-primary-100 mb-8 leading-relaxed max-w-3xl"
             >
-              Specjalizujemy się w produkcji i dostawie wysokiej jakości napojów alkoholowych i bezalkoholowych. Oferujemy kompleksowe rozwiązania dla branży napojowej.
+              {t('hero.description')}
             </motion.p>
 
             <motion.div
@@ -52,9 +54,9 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <Link href="/services">
+                            <Link href="/services">
                 <Button size="lg" className="bg-gold-600 hover:bg-gold-700 focus:ring-gold-500 group">
-                  Poznaj nasze usługi
+                  {t('hero.cta.services')}
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
                 </Button>
               </Link>
@@ -62,10 +64,10 @@ const Hero: React.FC = () => {
               <Link href="/contact">
                 <Button 
                   variant="outline" 
-                  size="lg" 
+                  size="lg"
                   className="border-white text-white hover:bg-white hover:text-primary-600"
                 >
-                  Skontaktuj się z nami
+                  {t('hero.cta.contact')}
                 </Button>
               </Link>
             </motion.div>

@@ -7,8 +7,10 @@ import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
 import Card from '../ui/Card';
 import Button from '../ui/Button';
 import type { ContactFormData } from '@/types';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const Contact: React.FC = () => {
+  const { t } = useLanguage();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
 
@@ -95,7 +97,7 @@ const Contact: React.FC = () => {
             viewport={{ once: true }}
             className="section-title"
           >
-            Skontaktuj się z nami
+            {t('contact.title')}
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -104,7 +106,7 @@ const Contact: React.FC = () => {
             viewport={{ once: true }}
             className="section-subtitle mx-auto"
           >
-            Jesteśmy tutaj, aby pomóc Ci rozwijać Twój biznes w branży napojowej
+            {t('contact.subtitle')}
           </motion.p>
         </div>
 

@@ -1,5 +1,8 @@
 # DiamondBev.pl Project Rules
 
+## Language Guidelines
+**IMPORTANT: All code, comments, variable names, function names, and documentation must be written in English, except for Polish content localizations. This ensures code maintainability and international collaboration.**
+
 ## Project Overview
 This is a presentation website for diamondbev.pl domain, serving as a business showcase for a multi-sector company operating in various industries including:
 

@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { CheckCircle, Target, Users, Award } from 'lucide-react';
 import Card from '../ui/Card';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const About: React.FC = () => {
+  const { t } = useLanguage();
 
   const stats = [
     { icon: Users, number: '50+', label: 'Rodzajów napojów' },
@@ -32,7 +34,7 @@ const About: React.FC = () => {
               viewport={{ once: true }}
               className="section-title"
             >
-              O Firmie DiamondBev.pl
+              {t('about.title')}
             </motion.h2>
             
             <motion.p
@@ -42,7 +44,7 @@ const About: React.FC = () => {
               viewport={{ once: true }}
               className="text-lg text-secondary-600 mb-6"
             >
-              Specjalizacja w Produkcji i Dostawie Napojów
+              {t('about.subtitle')}
             </motion.p>
 
             <motion.p
