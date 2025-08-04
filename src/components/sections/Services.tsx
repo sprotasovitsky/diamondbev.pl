@@ -18,61 +18,51 @@ const Services: React.FC = () => {
   const services = [
     {
       key: 'wholesale_general',
-      code: '46.90.Z',
       icon: Package,
       color: 'text-blue-600'
     },
     {
       key: 'food_production',
-      code: '10',
       icon: UtensilsCrossed,
       color: 'text-green-600'
     },
     {
       key: 'beverage_production',
-      code: '11',
       icon: Coffee,
       color: 'text-orange-600'
     },
     {
       key: 'automotive_trade',
-      code: '45',
       icon: Car,
       color: 'text-purple-600'
     },
     {
       key: 'wholesale_trade',
-      code: '46',
       icon: Warehouse,
       color: 'text-indigo-600'
     },
     {
       key: 'retail_trade',
-      code: '47',
       icon: ShoppingCart,
       color: 'text-pink-600'
     },
     {
       key: 'land_transport',
-      code: '49',
       icon: Truck,
       color: 'text-cyan-600'
     },
     {
       key: 'warehousing',
-      code: '52',
       icon: Archive,
       color: 'text-yellow-600'
     },
     {
       key: 'advertising',
-      code: '73',
       icon: Megaphone,
       color: 'text-red-600'
     },
     {
       key: 'rental',
-      code: '77',
       icon: KeyRound,
       color: 'text-teal-600'
     }
@@ -140,11 +130,6 @@ const Services: React.FC = () => {
                       </div>
                     </div>
                     <div className="flex-1 min-w-0">
-                      <div className="flex items-center space-x-2 mb-2">
-                        <span className="text-xs font-mono bg-secondary-200 text-secondary-700 px-2 py-1 rounded">
-                          {service.code}
-                        </span>
-                      </div>
                       <h3 className="font-semibold text-lg text-secondary-900 mb-2 leading-tight">
                         {service.key === 'beverage_production' ? 'Produkcja Napojów' :
                          service.key === 'food_production' ? 'Produkcja Spożywcza' :
