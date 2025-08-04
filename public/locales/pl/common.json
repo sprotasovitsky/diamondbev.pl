@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "services": "Usługi",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "DiamondBev.pl",
+    "subtitle": "Produkcja i Dostawa Napojów",
+    "description": "Specjalizujemy się w produkcji i dostawie wysokiej jakości napojów alkoholowych i bezalkoholowych. Oferujemy kompleksowe rozwiązania dla branży napojowej.",
+    "cta": "Poznaj nasze usługi",
+    "contact": "Skontaktuj się z nami"
+  },
+  "services": {
+    "title": "Nasze Usługi",
+    "subtitle": "Oferujemy szeroką gamę usług w różnych branżach",
+    "wholesale_general": {
+      "title": "Sprzedaż Hurtowa Niewyspecjalizowana",
+      "description": "Kompleksowe usługi sprzedaży hurtowej różnorodnych produktów."
+    },
+    "food_production": {
+      "title": "Produkcja Artykułów Spożywczych",
+      "description": "Wytwarzanie wysokiej jakości produktów spożywczych."
+    },
+    "beverage_production": {
+      "title": "Produkcja Napojów",
+      "description": "Produkcja różnorodnych napojów zgodnie z najwyższymi standardami."
+    },
+    "automotive_trade": {
+      "title": "Handel Pojazdami Samochodowymi",
+      "description": "Sprzedaż hurtowa i detaliczna pojazdów samochodowych."
+    },
+    "wholesale_trade": {
+      "title": "Handel Hurtowy",
+      "description": "Dystrybucja towarów z wyłączeniem pojazdów samochodowych."
+    },
+    "retail_trade": {
+      "title": "Handel Detaliczny",
+      "description": "Sprzedaż detaliczna z wyłączeniem handlu pojazdami samochodowymi."
+    },
+    "land_transport": {
+      "title": "Transport Lądowy",
+      "description": "Usługi transportu lądowego oraz transport rurociągowy."
+    },
+    "warehousing": {
+      "title": "Magazynowanie i Wsparcie Transportu",
+      "description": "Usługi magazynowe i działalność wspomagająca transport."
+    },
+    "advertising": {
+      "title": "Reklama i Badanie Rynku",
+      "description": "Usługi reklamowe, badanie rynku i opinii publicznej."
+    },
+    "rental": {
+      "title": "Wynajem i Dzierżawa",
+      "description": "Usługi wynajmu i dzierżawy różnorodnego sprzętu."
+    }
+  },
+  "about": {
+    "title": "O Firmie DiamondBev.pl",
+    "subtitle": "Specjalizacja w Produkcji i Dostawie Napojów",
+    "description": "DiamondBev.pl to firma specjalizująca się w produkcji i dostawie wysokiej jakości napojów alkoholowych i bezalkoholowych. Nasze doświadczenie w branży napojowej pozwala nam oferować kompleksowe rozwiązania dostosowane do potrzeb klientów.",
+    "mission": {
+      "title": "Nasza Misja",
+      "description": "Produkcja i dostawa najwyższej jakości napojów, budowanie długotrwałych relacji z klientami oraz wspieranie rozwoju biznesu w branży napojowej."
+    },
+    "values": {
+      "title": "Nasze Wartości",
+      "items": [
+        "Jakość i Niezawodność",
+        "Innowacyjność",
+        "Obsługa Klienta",
+        "Profesjonalizm",
+        "Uczciwość w Biznesie"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Jesteśmy tutaj, aby pomóc Ci rozwijać Twój biznes",
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "phone": "Telefon (opcjonalnie)",
+      "company": "Firma (opcjonalnie)",
+      "service": "Wybierz usługę",
+      "message": "Wiadomość",
+      "submit": "Wyślij wiadomość",
+      "required": "Pole wymagane"
+    },
+    "info": {
+      "title": "Informacje Kontaktowe",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "hours": "Godziny pracy"
+    },
+    "placeholder": {
+      "address": "Warszawa, Polska",
+      "phone": "+48 514 415 653",
+      "email": "darya.pratasavitska@diamondbev.pl",
+      "hours": "Pon-Pt: 8:00-17:00"
+    }
+  },
+  "footer": {
+    "description": "DiamondBev.pl - Specjalizacja w produkcji i dostawie napojów alkoholowych i bezalkoholowych.",
+    "rights": "© 2024 DiamondBev.pl. Wszystkie prawa zastrzeżone.",
+    "privacy": "Polityka Prywatności",
+    "terms": "Regulamin"
+  },
+  "meta": {
+    "home": {
+      "title": "DiamondBev.pl - Produkcja i Dostawa Napojów",
+      "description": "Specjalizujemy się w produkcji i dostawie wysokiej jakości napojów alkoholowych i bezalkoholowych. Kompleksowe rozwiązania dla branży napojowej."
+    },
+    "about": {
+      "title": "O Nas - DiamondBev.pl",
+      "description": "Poznaj DiamondBev.pl - firmę specjalizującą się w produkcji i dostawie napojów alkoholowych i bezalkoholowych."
+    },
+    "services": {
+      "title": "Usługi - DiamondBev.pl",
+      "description": "Sprawdź ofertę DiamondBev.pl - produkcja i dostawa napojów alkoholowych i bezalkoholowych."
+    },
+    "contact": {
+      "title": "Kontakt - DiamondBev.pl",
+      "description": "Skontaktuj się z DiamondBev.pl. Specjalizujemy się w produkcji i dostawie napojów."
+    }
+  }
+}

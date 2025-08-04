@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "DiamondBev.pl",
+    "subtitle": "Beverage Production and Supply",
+    "description": "We specialize in the production and supply of high-quality alcoholic and non-alcoholic beverages. We offer comprehensive solutions for the beverage industry.",
+    "cta": "Explore our services",
+    "contact": "Contact us"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a wide range of services across various industries",
+    "wholesale_general": {
+      "title": "Non-Specialized Wholesale Trade",
+      "description": "Comprehensive wholesale services for various products."
+    },
+    "food_production": {
+      "title": "Food Production",
+      "description": "Manufacturing high-quality food products."
+    },
+    "beverage_production": {
+      "title": "Beverage Production",
+      "description": "Production of various beverages according to the highest standards."
+    },
+    "automotive_trade": {
+      "title": "Automotive Trade",
+      "description": "Wholesale and retail trade of motor vehicles."
+    },
+    "wholesale_trade": {
+      "title": "Wholesale Trade",
+      "description": "Distribution of goods excluding motor vehicles."
+    },
+    "retail_trade": {
+      "title": "Retail Trade",
+      "description": "Retail sales excluding motor vehicle trade."
+    },
+    "land_transport": {
+      "title": "Land Transport",
+      "description": "Land transport services and pipeline transport."
+    },
+    "warehousing": {
+      "title": "Warehousing and Transport Support",
+      "description": "Warehousing services and transport support activities."
+    },
+    "advertising": {
+      "title": "Advertising and Market Research",
+      "description": "Advertising services, market research and public opinion."
+    },
+    "rental": {
+      "title": "Rental and Leasing",
+      "description": "Rental and leasing services for various equipment."
+    }
+  },
+  "about": {
+    "title": "About DiamondBev.pl",
+    "subtitle": "Specialization in Beverage Production and Supply",
+    "description": "DiamondBev.pl is a company specializing in the production and supply of high-quality alcoholic and non-alcoholic beverages. Our experience in the beverage industry allows us to offer comprehensive solutions tailored to customer needs.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Production and supply of the highest quality beverages, building long-term relationships with clients, and supporting business development in the beverage industry."
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        "Quality and Reliability",
+        "Innovation",
+        "Customer Service",
+        "Professionalism",
+        "Business Integrity"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you grow your business",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "phone": "Phone (optional)",
+      "company": "Company (optional)",
+      "service": "Select service",
+      "message": "Message",
+      "submit": "Send message",
+      "required": "Required field"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business hours"
+    },
+    "placeholder": {
+      "address": "Warsaw, Poland",
+      "phone": "+48 514 415 653",
+      "email": "darya.pratasavitska@diamondbev.pl",
+      "hours": "Mon-Fri: 8:00-17:00"
+    }
+  },
+  "footer": {
+    "description": "DiamondBev.pl - Specialization in production and supply of alcoholic and non-alcoholic beverages.",
+    "rights": "© 2024 DiamondBev.pl. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "meta": {
+    "home": {
+      "title": "DiamondBev.pl - Beverage Production and Supply",
+      "description": "We specialize in the production and supply of high-quality alcoholic and non-alcoholic beverages. Comprehensive solutions for the beverage industry."
+    },
+    "about": {
+      "title": "About Us - DiamondBev.pl",
+      "description": "Learn about DiamondBev.pl - a company specializing in the production and supply of alcoholic and non-alcoholic beverages."
+    },
+    "services": {
+      "title": "Services - DiamondBev.pl",
+      "description": "Check DiamondBev.pl services - production and supply of alcoholic and non-alcoholic beverages."
+    },
+    "contact": {
+      "title": "Contact - DiamondBev.pl",
+      "description": "Contact DiamondBev.pl. We specialize in beverage production and supply."
+    }
+  }
+}

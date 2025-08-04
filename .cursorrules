@@ -1,0 +1,194 @@
+# DiamondBev.pl Project Rules
+
+## Project Overview
+This is a presentation website for diamondbev.pl domain, serving as a business showcase for a multi-sector company operating in various industries including:
+
+- Wholesale trade (non-specialized) - 46.90.Z
+- Food production - 10
+- Beverage production - 11
+- Automotive wholesale and retail trade - 45
+- Wholesale trade (excluding automotive) - 46
+- Retail trade (excluding automotive) - 47
+- Land transport and pipeline transport - 49
+- Warehousing and transport support services - 52
+- Advertising, market research, and public opinion - 73
+- Rental and leasing services - 77
+
+## Technical Requirements
+
+### Multi-language Support
+- Primary languages: Polish (pl) and English (en)
+- Implement proper i18n/internationalization
+- Use language-specific routing (e.g., /pl/, /en/)
+- Ensure all content is available in both languages
+- Implement language switcher component
+
+### Design & UX
+- Modern, professional design reflecting business credibility
+- Responsive design for all devices (mobile, tablet, desktop)
+- Fast loading times and optimized performance
+- Accessible design following WCAG guidelines
+- Clean, corporate aesthetic suitable for B2B presentation
+
+### Content Structure
+- Homepage with company overview
+- Services/Products sections for each business sector
+- About Us/Company information
+- Contact information and forms
+- Testimonials or case studies
+- News/Blog section (optional)
+
+## Development Guidelines
+
+### Code Standards
+- Use TypeScript for type safety
+- Follow ESLint and Prettier configurations
+- Implement proper error handling
+- Write clean, maintainable code
+- Use semantic HTML structure
+- Implement proper SEO meta tags
+
+### File Organization
+```
+src/
+├── components/
+│   ├── layout/
+│   ├── ui/
+│   └── sections/
+├── pages/
+├── locales/
+│   ├── pl/
+│   └── en/
+├── styles/
+├── utils/
+└── types/
+```
+
+### Styling
+- Use CSS modules or styled-components
+- Implement design system with consistent colors, typography, and spacing
+- Ensure brand consistency across all pages
+- Use modern CSS features (Grid, Flexbox, CSS Variables)
+
+### Performance
+- Optimize images and assets
+- Implement lazy loading where appropriate
+- Use proper caching strategies
+- Minimize bundle size
+- Implement proper loading states
+
+### SEO & Analytics
+- Implement proper meta tags for each page
+- Use structured data (JSON-LD)
+- Implement Google Analytics or similar
+- Ensure proper Open Graph tags for social sharing
+- Optimize for local SEO (Poland focus)
+
+## Business Content Guidelines
+
+### Polish Content (Primary)
+- Use formal business Polish language
+- Include proper business terminology for each sector
+- Ensure cultural appropriateness for Polish market
+- Include relevant Polish business certifications or standards
+
+### English Content
+- Professional business English
+- Include international business terminology
+- Optimize for international clients and partners
+- Consider EU business standards and regulations
+
+### Content Sections
+1. **Homepage**: Company overview, key services, value proposition
+2. **Services**: Detailed information about each business sector
+3. **About**: Company history, mission, values, team
+4. **Contact**: Contact forms, location, business hours
+5. **News/Blog**: Industry insights, company updates
+
+## Technical Stack Recommendations
+
+### Frontend
+- Next.js or React with TypeScript
+- Tailwind CSS or styled-components
+- Framer Motion for animations
+- React Hook Form for forms
+- Next-i18next for internationalization
+
+### Backend (if needed)
+- Node.js with Express or Next.js API routes
+- Database: PostgreSQL or MongoDB
+- Email service integration
+- File upload handling
+
+### Deployment
+- Vercel, Netlify, or similar platform
+- Custom domain configuration
+- SSL certificate setup
+- CDN for global performance
+
+## Quality Assurance
+
+### Testing
+- Unit tests for critical components
+- Integration tests for forms and user flows
+- E2E tests for main user journeys
+- Cross-browser testing
+- Mobile responsiveness testing
+
+### Accessibility
+- WCAG 2.1 AA compliance
+- Keyboard navigation support
+- Screen reader compatibility
+- Proper color contrast ratios
+- Alt text for all images
+
+### Security
+- Input validation and sanitization
+- HTTPS enforcement
+- Content Security Policy
+- Regular dependency updates
+- Secure form handling
+
+## Content Management
+
+### Translation Workflow
+- Maintain parallel content structure
+- Use translation keys for dynamic content
+- Implement fallback language handling
+- Regular content review and updates
+
+### Image and Media
+- Optimize all images for web
+- Provide alt text in both languages
+- Use appropriate image formats (WebP, AVIF)
+- Implement lazy loading for images
+
+## Monitoring and Maintenance
+
+### Analytics
+- Track user behavior and engagement
+- Monitor conversion rates
+- Analyze traffic sources
+- Regular performance audits
+
+### Updates
+- Regular content updates
+- Security patches
+- Performance optimizations
+- Feature enhancements based on user feedback
+
+## Business Requirements
+
+### Legal Compliance
+- GDPR compliance for EU visitors
+- Cookie consent implementation
+- Privacy policy in both languages
+- Terms of service if applicable
+
+### Business Information
+- Company registration details
+- VAT numbers and business identifiers
+- Contact information for each service area
+- Business hours and availability
+
+Remember to always prioritize user experience, maintain professional presentation, and ensure the website effectively represents the company's multi-sector business capabilities. 
